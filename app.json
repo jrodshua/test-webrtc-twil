@@ -1,0 +1,17 @@
+{
+  "name": "jrodshua-webrtc-twil-chat",
+  "description": "audio chat app using twilio webrtc api",
+  "scripts": {},
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
